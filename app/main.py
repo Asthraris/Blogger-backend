@@ -2,15 +2,12 @@ from fastapi import FastAPI
 #sessio is an instance of db we get per resquest operation in http
 from . import model
 from .database import engine
-
+from dotenv import load_dotenv
 from .routers import user,blog , authentication
 
 app = FastAPI()
-#router -don3
-#relation -don3
-#login -don3
-#authentication
-#op behind auethenti cation
+# loads the.env file file
+load_dotenv()
 
 model.Base.metadata.create_all(engine)
 
