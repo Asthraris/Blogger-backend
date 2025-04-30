@@ -16,7 +16,7 @@ app.db
 *.swp
 
 # Dependency directories
-.env/
+.env
 *.egg-info/
 
 # Test, coverage, and build files
