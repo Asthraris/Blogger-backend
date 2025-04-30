@@ -1,0 +1,29 @@
+# Python Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+blog-env/
+
+# Database files
+app.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+.env/
+*.egg-info/
+
+# Test, coverage, and build files
+.coverage
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
